@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'portfoliodb',
         'USER':'postgres',
-        'PASSWORD':'0ff2C4me!pg',
+        'PASSWORD':'django1234',
         'HOST':'localhost',
         'PORT':'5432',
     }
@@ -136,6 +136,6 @@ MEDIA_URL = '/media/'
 
 # added this so true keys are secure on the server
 try:
-    from local_settings import *
+    from .local_settings import *
 except ImportError:
     pass
