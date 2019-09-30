@@ -133,3 +133,9 @@ STATIC_URL = '/static/'
 
 MEDIA_ROOT = MEDIA_ROUTE = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+# added this so true keys are secure on the server
+try:
+    from local_settings import *
+except ImportError:
+    pass
