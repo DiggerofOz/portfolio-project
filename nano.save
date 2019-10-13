@@ -1,0 +1,8 @@
+● gunicorn.service
+   Loaded: error (Reason: Bad message)
+   Active: inactive (dead) Oct 12 09:04:25 django2-portfolilo systemd[1]: [/etc/systemd/system/gunicorn.service:1] Invalid 
+section header '[Unit] Description=gunicorn daemon' Oct 12 09:05:16 django2-portfolilo systemd[1]: 
+[/etc/systemd/system/gunicorn.service:1] Invalid section header '[Unit] Description=gunicorn daemon' Oct 12 09:06:03 
+django2-portfolilo systemd[1]: [/etc/systemd/system/gunicorn.service:1] Invalid section header '[Unit] Description=gunicorn 
+daemon' Oct 12 09:07:04 django2-portfolilo systemd[1]: [/etc/systemd/system/gunicorn.service:1] Invalid section header '[Unit] 
+Description=gunicorn daemon'
